@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --Very-dark-blueef-card-BG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Soft-blue: hsl(215, 51%, 70%);
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    background-color: var(--Very-dark-blue-main-BG);
+    MIN-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+border: none;
+background-color: var(--Very-dark-blueef-card-BG);
+height: 80vh;
+width: 20%;
+margin: 0 auto;
+padding: 15px;
+border-radius: 10px;
+}
+
+.cube{
+    height: 60%;
+    min-height: 60%;
+    width: 100%;
+    min-width: 80%;
+    border-radius: 5px;
+}
+
+
+h1{
+    color: hsl(255, 100%, 100%);
+    font-size: 20px;
+    padding: 10px 0;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+ p{
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    padding: 5px 0;
+    font-weight: 300;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth{
+    display: flex;
+    
+
+}
+
+.money{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.eth img{
+    height: 20px;
+    padding: 5px 0;
+    padding-right: 5px;
+}
+
+.days{
+    display: flex;
+}
+
+.days-left{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.days img{
+    height: 20px;
+    padding:5px 0;
+    padding-right: 5px;
+}
+
+hr{
+    margin: 10px 0;
+    border-color: var(--Very-dark-blue-line);
+}
+
+.author img{
+    height: 20px;
+    width: 20px;
+    border: solid green 2px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.author p{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.author a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+/*
+.img img{
+    height: 30px;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cube{
+    height: 300px;
+    margin: 10px;
+} */
